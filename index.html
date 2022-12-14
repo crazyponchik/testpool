@@ -10,13 +10,35 @@
     h1 {
       color: navy;
     }
+
+    p {
+      font-size: 20px;
+    }
+
+    .special {
+      color: red;
+      font-weight: bold;
+    }
   </style>
 </head>
 <body>
-  <h1>Hell</h1>
+  <h1>Hello, World!</h1>
+  <p>
+    This is an example of a more advanced HTML page.
+  </p>
+  <p class="special">
+    This paragraph has special styles applied to it.
+  </p>
 
   <script>
-    alert("у тебя отвалится жопа");
+    // Select the special paragraph
+    var specialParagraph = document.querySelector(".special");
+
+    // Listen for clicks on the paragraph
+    specialParagraph.addEventListener("click", function() {
+      // Alert the user when the paragraph is clicked
+      alert("You clicked the special paragraph!");
+    });
   </script>
 </body>
 </html>
