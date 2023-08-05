@@ -1,3 +1,3 @@
 # testpool
-https://ferylant.github.io/testpool/
+https://crazyponchik.github.io/testpool/
 just press start
